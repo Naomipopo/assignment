@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+*{
+  margin:0;
+  box-sizing:border-box;
+  padding:0;
+}
+h3{
+  font-family:'Big Shoulders Display', cursive;
+}
+body{
+ background-color: hsl(0, 0%, 95%);
+  font-size:15px;
+   box-sizing:border-box
+  
+  width:1000px
+}
+main{
+  width:50%;
+ margin:200px auto;
+  display:flex;
+  align-items:center;
+  height:100%;
+  flex-direction:column;
+  flex:1;
+}
+.main-box{
+  display:flex;
+  width:50%;
+  padding-bottom:px;
+  width: 850px;
+  height:450px
+  box-sizing:border-box;
+}
+.first-box{
+  background-color: hsl(31, 77%, 52%);
+   padding: 30px; 
+  border-radius:10px 0 0 10px;
+}
+.first-box h1{
+  color: hsl(0, 0%, 95%);
+  padding-bottom:30px;
+				padding-top:20px;
+				font-size:bold;
+				font-weight:700;
+				font-family:'Big Shoulders Display';
+}
+.first-box p{
+  color: hsl(0, 0%, 100%,0.75);
+        font-weight:400;
+				font-family:'Lexend-Deca';
+				font-size: 15px;
+				padding-bottom:110px;
+}
+
+div {
+    cursor:pointer;
+}
+button{
+  background-color:hsl(0, 0%, 95%);
+  font-size: 10px;
+  padding: 12px 36px;
+  border-radius: 24px;
+  margin-bottom:10px;
+	margin-top:40px;
+}
+.btn1{
+  color: hsl(31, 77%, 52%);
+}
+.active,.btn1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%) ;
+}
+.second-box{
+  background-color:hsl(184, 100%, 22%) ;
+    padding: 30px;
+
+}
+.second-box h1{
+  color: hsl(0, 0%, 95%);
+   padding-bottom:30px;
+				padding-top:20px;
+				font-size:bold;
+				font-weight:700;
+				font-family:'Big Shoulders Display';
+}
+.second-box p{
+  color: hsl(0, 0%, 100%,0.75);
+  font-weight:400;
+				font-family:'Lexend-Deca';
+				font-size:15px;
+				padding-bottom:90px;
+}
+.btn2{
+ color: hsl(184, 100%, 22%);
+}
+  .active,.btn2:hover {
+  background-color:hsl(184, 100%, 22%) ;
+  color:hsl(0, 0%, 100%,0.75) ;
+}
+.third-box{
+  background-color: hsl(179, 100%, 13%) ;
+    padding: 30px;
+   border-radius:0 10px 10px 0;
+}
+.third-box h1{
+  color: hsl(0, 0%, 95%);
+ padding-bottom:30px;
+				padding-top:20px;
+				font-size:bold;
+				font-weight:700;
+				font-family:'Big Shoulders Display';
+}
+.third-box p{
+  color: hsl(0, 0%, 100%,0.75);
+  font-weight:400;
+				font-family:'Lexend-Deca';
+				font-size:15px;
+				padding-bottom:90px;	
+}
+.btn3{
+ color: hsl(179, 100%, 13%);
+}
+.active,.btn3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color:hsl(0, 0%, 100%,0.75); ;
+}
+nav{
+ color: hsl(179, 100%, 13%);
+  align-items: center;
+   text-decoration: none;
+  text-align: center;
+}
+@media screen and (max-width:375px) and (min-width:1440px){
+  body{
+    min-width:1000px
+  }
+}
